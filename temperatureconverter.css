@@ -1,0 +1,132 @@
+body {
+    font-family: cursive;
+    text-align: center;
+    color: rgb(240, 241, 238);
+    background-color: rgb(255, 251, 251) ;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+#mine {
+    background-color: rgb(100, 193, 216);
+    color: hsl(0, 95%, 50%);
+    background-size: 60px;
+    max-width: 700px;
+    margin: auto;
+    margin-top: 50px;
+    height: 550px;
+    border-radius: 9px;
+    box-shadow: 10px 20px 30px rgb(53, 54, 77);   
+}
+
+#tempconverter {
+    background-color: aliceblue;
+    color: tomato;
+    background-size: 60px;
+    max-width: 400px;
+    height: 450px;
+    margin: auto;
+    margin-top: -520px;
+    border-radius: 20px;
+    box-shadow: 10px 20px 10px tomato;
+   
+}
+#mysubmit {
+    background-color: rgb(173, 220, 231);
+    font: bolder;
+    font-family: cursive;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 7px;
+    margin-bottom: 30px;
+}
+
+#mysubmit:hover {
+    background-color: rgb(190, 130, 130);
+}
+#myinput {
+    border-radius: 8px;
+    width: 200px;
+    height: 20px;
+    margin-bottom: 20px;
+
+}
+
+#myradio2 {
+    margin-bottom: 30px;
+}
+
+#tempconverter {
+    padding: 10px ;
+}
+
+#result {
+    margin-bottom: 30px;
+}
+
+@media (max-width:760px){
+    #mine{
+        max-width: 500px;
+    }
+
+    #tempconverter { 
+    max-width: 330px;
+}
+
+}
+
+@media (max-width:570px){
+    #mine{
+        max-width: 450px;
+    }
+
+    
+#tempconverter { 
+    max-width: 330px;
+}
+}
+@media (max-width:470px){
+    #mine{
+        max-width: 350px;
+    }
+
+    #tempconverter { 
+    max-width: 280px;
+}
+}
+@media (max-width:389px){
+    #mine{
+        max-width: 240px;
+    }
+    
+#tempconverter { 
+    max-width: 170px;
+    
+}
+
+#myinput{
+    width: 160px;
+}
+
+#mytemp{
+    font-size: 27px;
+}
+}
+@media (max-width:270px){
+    #mine{
+        max-width: 210px;
+    }
+    
+#tempconverter { 
+    max-width: 160px;
+    
+}
+
+#myinput{
+    width: 150px;
+}
+
+#mytemp{
+    font-size: 25px;
+}
+}
